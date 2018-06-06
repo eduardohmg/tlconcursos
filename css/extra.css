@@ -1,0 +1,334 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0px 0px 180px 0px;
+}
+
+@media (max-width: 768px) {
+  
+body {
+  padding-bottom: 100px;
+}
+}
+
+body > .container {
+  padding: 80px 15px 70px 15px;
+}
+
+
+@media (max-width: 768px) {
+	.jumbotron {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.off-menu {
+  padding: 0px;;
+}
+
+@media (max-width: 768px) {
+	.off-menu {
+		padding: 40px 0px;
+	}
+}
+
+@media (max-width: 768px) {
+  footer {
+	  padding-bottom: 50px;
+  }
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+footer .info-list {
+  font-size: 14px;
+  text-align: left;
+}
+
+footer a {
+  color: #404040;
+}
+
+footer a:hover,
+footer a:focus {
+	text-decoration: underline;
+}
+
+.list-group .active {
+	font-weight: bold;
+}
+
+.table-responsive .glyphicon
+	{color: black;}
+	
+.table-responsive .glyphicon:hover
+{color: #23527c;}
+
+.min-panel {
+	min-height: 415px;
+}
+
+.blockquote-content {
+	border-color: #333;
+}
+
+.blockquote-content p {
+	font-size: 20px;
+}
+
+
+.float-static{
+	overflow: hidden;
+	border: 0px red solid;
+}
+
+.crazy {
+bottom: 0;position: absolute; float: right;  }
+
+@media (max-width: 768px) {
+  .crazy {
+	position: relative;
+    text-align: right;
+	padding-top: 80px;	
+  }
+}
+
+.footer a {color: #fff;text-decoration:none;}
+.footer a:hover, focus {color: #ddd;}
+
+
+.panel-green {
+	border: 0px;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+
+
+.panel-red {
+	border: 0px;
+
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+	border: 0px;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+
+.panel-blue {
+	border: 0px;
+}
+
+.panel-blue > .panel-heading {
+    border-color: #337ab7;
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.panel-blue > a {
+    color: #337ab7;
+}
+
+.panel-blue > a:hover {
+    color: #337ab7;
+}
+
+.huge {
+    font-size: 40px;
+}
+
+footer {
+  padding: 0px 0px 10px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+@media (max-width: 768px) {
+  footer {
+	  padding-bottom: 50px;
+  }
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+footer .info-list {
+  font-size: 14px;
+  text-align: left;
+}
+
+footer a {
+  color: #404040;
+}
+
+footer a:hover,
+footer a:focus {
+	text-decoration: underline;
+}
+
+.espacamento {
+	white-space: pre-wrap;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+.color-descricao{
+	color: #555;
+}
+
+.pull-right2 {
+  float: right !important;
+}
+
+@media (max-width: 768px) {
+	.pull-right2 {
+		float: left !important;
+	}
+}
+
+.float-static p{
+	margin: 10px 0 10px 0;	
+}
+
+
+.generic-background {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: inherit;
+  background-color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-shadow: 2px 2px 2px 2px  #000000;
+  overflow: hidden;
+}
+
+.generic-background h1,
+.generic-background .h1 {
+  color: inherit;
+}
+.generic-background p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 0;
+}
+.generic-background > hr {
+  border-top-color: #d5d5d5;
+}
+.container .generic-background,
+.container-fluid .generic-background {
+  border-radius: 6px;
+}
+.generic-background .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .generic-background {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .container .generic-background,
+  .container-fluid .generic-background {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .generic-background h1,
+  .generic-background .h1 {
+    font-size: 63px;
+  }
+}
+
+.generic-background .glyphicon-remove{color: red;}
+.generic-background .glyphicon-ok{color: green;}
+
+.jumbotron hr{
+	border-top-color: #d5d5d5;
+}
+
+.table a {
+		color: #000000;
+		text-decoration: none;
+		}
+		.table a:hover, focus {
+		text-decoration: none;
+		}	
+		
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+		
+		
+
